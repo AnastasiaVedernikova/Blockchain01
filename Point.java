@@ -26,7 +26,7 @@ public class Point {
             double y3 = this.y + s * (x3 - this.x);
             //modify the self
             this.x = x3;
-            this.y = y3;
+            this.y = y3 * (-1);
         } else {
             System.out.print("Points are equal, you should use addEqualPoints method!");
         }
@@ -42,6 +42,6 @@ public class Point {
         double y3 = this.y + s * (x3 - this.x);
         //modify the self
         this.x = x3;
-        this.y = y3;
+        this.y = y3*(-1);
     }
 }
